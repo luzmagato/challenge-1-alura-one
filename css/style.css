@@ -1,0 +1,264 @@
+* {
+    background: #f2f2f3;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 1.0rem;
+    line-height: 100%;
+}
+.btn-copiar {
+    visibility: hidden;
+}
+
+.content{
+    margin: 0 auto;
+}
+
+body {
+   
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    background-color: #d8dfe8;
+}
+
+.titulo {
+    width: 90%;
+    background-color: #d8dfe8;
+    margin-top: 0%;
+    padding: 2%;
+    color: #0a3871;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo {
+    background-color: #d8dfe8;
+    padding-top: 2.5%;
+    margin-left: 5px;
+    width: 11%;
+    height: 90%;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    margin-top: 20px;
+    margin: bottom 50px;
+    margin-left: 0;
+}
+
+.datos_entrada {
+    width: 60%;
+    margin: 0px 0px;
+    text-align: center;
+}
+
+#mensaje{
+    padding: 0 1rem;
+    color: white;
+    background: #0a3871;
+    position: fixed;
+    font-size: 0.8rem;
+}
+
+.text-area {
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    color: #0a3871;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 1rem;
+    text-transform: lowercase;
+    box-shadow: 3px 3px 9px #6f85a3;
+    outline: none
+}
+
+::placeholder {
+    color: #0a3871;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.informacion {
+    text-align: left;
+    margin-left: 15px;
+    color: #495057;
+    font-size: 12px;
+}
+
+.resultado {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+
+    margin-top: 0px;
+}
+
+.text-area1 {
+    resize: none;
+    width: 90%;
+    background-image: url("../images/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    border: none;
+    border-radius: 14px;
+    color: #0a3871;
+    margin-top: 30px;
+    padding: 1.25rem;
+    box-shadow: 3px 3px 9px #6f85a3;
+    outline: none;
+}
+
+
+.botones {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.btn-encriptar {
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    height: 3rem;
+    width: 47%;
+}
+
+.btn-encriptar:hover {
+    background-color: #2a5891;
+    box-shadow: 1px 1px 7px #0a3871;
+}
+
+.btn-desencriptar {
+    background-color: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 10px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 3rem;
+    width: 47%;
+    margin-left: 30px;
+}
+
+.btn-desencriptar:hover {
+    box-shadow: 1px 1px 7px #0a3871;
+}
+
+.btn-copiar {
+    background-color: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 10px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 3rem;
+    width: 75%;
+    display: block;
+    margin: 0px auto;
+    margin-top: 15px;
+    margin-left: 10%;
+}
+
+.btn-copiar:hover {
+
+    box-shadow: 1px 1px 7px #0a3871;
+}
+
+
+footer {
+    padding-top: 35px;
+    height: 65px;
+    width: 100%;
+    text-align: center;
+    line-height: 45px;
+    
+}
+
+footer h6 {
+    font-size: 0.75rem;
+    background-color: #d8dfe8;
+    color: #0a3871;
+}
+
+@media (max-width: 770px) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    main {
+        width: 100%;
+        flex-direction: column;
+        margin:  0 auto;
+    }
+    .content{
+        margin: 0% auto;
+    }
+    .text-area{
+        margin-left: 0 auto;
+    }
+    .datos_entrada {
+        width: 100%;
+        margin:  2% auto;
+
+    }
+    .resultado {
+        margin-top: 0%;
+        margin:  0 auto;
+        
+        width: 80%;
+    }
+    .btn-copiar {
+        margin-bottom: 15px;
+    }
+
+    
+}
+
+@media (max-width: 370px) {
+    body {
+        width: 370px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    main {
+        margin:  0 auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .content{
+        margin: 0px auto;
+    }
+    .datos_entrada {
+        margin: 2%;
+        width: 100%;
+        margin:  0 auto;
+
+    }
+    .resultado {
+        margin-top: 0%;
+        margin:  0 auto;
+        width: 80%;
+    }
+    .btn-copiar {
+        margin-bottom: 15px;
+    }
+}
